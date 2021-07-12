@@ -17,7 +17,7 @@ private lateinit var binding: ActivityMainBinding
         setContentView(binding.root)
 
         binding.btnNoche.setOnClickListener {
-            Toast.makeText(this, "Buenas noches...", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Buenas noches..", Toast.LENGTH_SHORT).show()
             binding.texto.setText("Good morning")
         }
 
